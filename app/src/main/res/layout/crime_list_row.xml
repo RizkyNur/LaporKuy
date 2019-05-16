@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="64dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/linear_layout_crime_list_row"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:id="@+id/spinner_crime_list_row"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="@color/whiteStuff"
+                />
+            <TextView
+                android:id="@+id/detail_crime_list_row"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:textSize="14sp"
+                android:textColor="@color/whiteStuff"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/time_crime_list_row"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="14sp"
+            android:textColor="@color/whiteStuff"
+            android:text="none"
+            />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
